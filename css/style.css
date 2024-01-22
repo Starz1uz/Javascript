@@ -1,0 +1,84 @@
+* {
+    padding: 0px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(8, 48, 79);
+
+}
+
+.first_section {
+    background-color: blue;
+    width: 434px;
+    height: 434px;
+    border-radius: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_of_section {
+    background-color: rgb(7, 7, 76);
+    width: 332px;
+    height: 374px;
+    border-radius: 54px;
+    padding-left: 600px;
+    position: relative;
+}
+
+.position {
+    position: absolute;
+    left: 23px;
+    width: 300px;
+}
+
+.position h1 {
+    color: aliceblue;
+    font-size: 100px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 50px;
+}
+
+.position button {
+    background-color: blue;
+    width: 96px;
+    height: 93px;
+    border: none;
+    border-radius: 9px;
+    position: relative;
+    top: 143px;
+    left: 123px;
+    color: beige;
+    font-size: 73px;
+    cursor: pointer;
+}
+
+/* .box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.one {
+    background-color: blue;
+    color: white;
+}
+.two{
+    background-color: red;
+    color: white;
+}
+.active {
+    background-color: violet;
+}
+button {
+    padding: 20px;
+    margin: 20px;
+} */
